@@ -6,6 +6,7 @@ import './style.css';
 const Search = ({ disableAutoFocus }) => (
   <input
     className="emoji-search"
+    placeholder="Search..."
     onChange={useFilter()}
     autoFocus={!disableAutoFocus}
   />
