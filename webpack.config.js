@@ -12,7 +12,7 @@ module.exports = {
   externals: {
     react: 'react',
   },
-  target: 'node',
+  target: 'web',
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'index.js',
